@@ -1,0 +1,6 @@
+services:
+  serializer.normalizer.edu_entity.preview_exapmle:
+    class: Drupal\preview_example\Normalizer\PreviewExampleEntityNormalizer
+    arguments: ['@jsonapi.link_manager', '@jsonapi.resource_type.repository', '@entity_type.manager']
+    tags:
+      - { name: jsonapi_normalizer_do_not_use_removal_imminent, priority: 31 }

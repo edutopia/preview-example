@@ -1,0 +1,7 @@
+name: Example JSONAPI Preview
+description: Contains API changes for preview.
+type: module
+package: Example
+core: '8.x'
+dependencies:
+  - jsonapi
